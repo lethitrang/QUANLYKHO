@@ -84,3 +84,6 @@ D:\HOC TAP\ky 6\Thuc tap nhom\THUCTAPNHOM2\Quanlykho\Quan_ly_kho_hang\Quan_ly_kh
 D:\HOC TAP\ky 6\Thuc tap nhom\THUCTAPNHOM2\Quanlykho\Quan_ly_kho_hang\Quan_ly_kho_hang\obj\Debug\Quan_ly_kho_hang.exe
 D:\HOC TAP\ky 6\Thuc tap nhom\THUCTAPNHOM2\Quanlykho\Quan_ly_kho_hang\Quan_ly_kho_hang\obj\Debug\Quan_ly_kho_hang.pdb
 D:\HOC TAP\ky 6\Thuc tap nhom\THUCTAPNHOM2\Quanlykho\Quan_ly_kho_hang\Quan_ly_kho_hang\obj\Debug\Quan_ly_kho_hang.csprojResolveAssemblyReference.cache
+C:\Users\Tuanbita\Documents\GitHub\Quanlykho\Quan_ly_kho_hang\Quan_ly_kho_hang\bin\Debug\Quan_ly_kho_hang.exe.config
+C:\Users\Tuanbita\Documents\GitHub\Quanlykho\Quan_ly_kho_hang\Quan_ly_kho_hang\obj\Debug\Quan_ly_kho_hang.exe
+C:\Users\Tuanbita\Documents\GitHub\Quanlykho\Quan_ly_kho_hang\Quan_ly_kho_hang\obj\Debug\Quan_ly_kho_hang.pdb
