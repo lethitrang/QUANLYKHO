@@ -79,7 +79,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(532, 176);
+            this.panel1.Size = new System.Drawing.Size(529, 176);
             this.panel1.TabIndex = 0;
             // 
             // cboXuat
@@ -225,7 +225,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 176);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(532, 268);
+            this.panel2.Size = new System.Drawing.Size(529, 268);
             this.panel2.TabIndex = 1;
             // 
             // dgvDanhSach
@@ -242,7 +242,7 @@
             this.dgvDanhSach.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvDanhSach.Location = new System.Drawing.Point(0, 0);
             this.dgvDanhSach.Name = "dgvDanhSach";
-            this.dgvDanhSach.Size = new System.Drawing.Size(532, 268);
+            this.dgvDanhSach.Size = new System.Drawing.Size(529, 268);
             this.dgvDanhSach.TabIndex = 0;
             // 
             // MaHH
@@ -291,7 +291,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(532, 444);
+            this.ClientSize = new System.Drawing.Size(529, 444);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));

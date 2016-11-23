@@ -91,21 +91,22 @@ namespace Quan_ly_kho_hang
 
             dgvDanhSach.DataSource = DAL_Hang.TimKiem(chuoitim);
         }
-
+        private void cboXuat_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            dauXuat = cboXuat.SelectedItem.ToString();
+        }
+        private void cboNhap_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            dauNhap = cboNhap.SelectedItem.ToString();
+        }
         private void frmTimHang_Load(object sender, EventArgs e)
         {
             cboNhap.SelectedIndex = 0;
             cboXuat.SelectedIndex = 0;
         }
 
-        private void cboNhap_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            dauNhap = cboNhap.SelectedItem.ToString();
-        }
+        
 
-        private void cboXuat_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            dauXuat = cboXuat.SelectedItem.ToString();
-        }
+        
     }
 }
