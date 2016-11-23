@@ -80,3 +80,6 @@ D:\HOC TAP\ky 6\Thuc tap nhom\demo\111111111111111111111111111111111111111111111
 D:\HOC TAP\ky 6\Thuc tap nhom\demo\11111111111111111111111111111111111111111111111111111111111\Quan_ly_kho_hang_linh\Quan_ly_kho_hang\Quan_ly_kho_hang\obj\Debug\Quan_ly_kho_hang.Properties.Resources.resources
 D:\HOC TAP\ky 6\Thuc tap nhom\demo\11111111111111111111111111111111111111111111111111111111111\Quan_ly_kho_hang_linh\Quan_ly_kho_hang\Quan_ly_kho_hang\obj\Debug\Quan_ly_kho_hang.frmThongKe.resources
 D:\HOC TAP\ky 6\Thuc tap nhom\demo\11111111111111111111111111111111111111111111111111111111111\Quan_ly_kho_hang_linh\Quan_ly_kho_hang\Quan_ly_kho_hang\obj\Debug\Quan_ly_kho_hang.csproj.GenerateResource.Cache
+D:\HOC TAP\ky 6\Thuc tap nhom\THUCTAPNHOM2\Quanlykho\Quan_ly_kho_hang\Quan_ly_kho_hang\bin\Debug\Quan_ly_kho_hang.exe.config
+D:\HOC TAP\ky 6\Thuc tap nhom\THUCTAPNHOM2\Quanlykho\Quan_ly_kho_hang\Quan_ly_kho_hang\obj\Debug\Quan_ly_kho_hang.exe
+D:\HOC TAP\ky 6\Thuc tap nhom\THUCTAPNHOM2\Quanlykho\Quan_ly_kho_hang\Quan_ly_kho_hang\obj\Debug\Quan_ly_kho_hang.pdb
