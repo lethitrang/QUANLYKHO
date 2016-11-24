@@ -34,5 +34,19 @@ namespace QuanLyKhoHangDAL
         {
             return cn.GetDataTable(@"select a.MaHH,b.TenHH,a.SoLuong,a.DonGia from tblChiTietPhieuNhap a,tblHangHoa b where a.MaHH = b.MaHH and a.MaPN = '"+value+"'");
         }
+
+        //hiển thị dgv theo phiếu nhập
+        public DataTable getChitiet_MaPN(string MaPN)
+        {
+            return cn.GetDataTable(@"SELECT * FROM tblChiTietPhieuNhap a WHERE a.MaPN = '"+MaPN+"'");
+        }
+        public void Them_TT(EC_tblChiTietPhieuNhap et)
+        {
+            cn.ThucThiCauLenhSQL(@"INSERT INTO tblChiTietPhieuNhap (MaPN,MaHH,SoLuong,DonGia, ThanhTien) VALUES ('" + et.MaPN + "','" + et.MaHH + "'," + et.SoLuong + "," + et.DonGia + et.ThanhTien +")");
+        }
+        public void Sua_Tatca(EC_tblChiTietPhieuNhap et)
+        {
+            cn.ThucThiCauLenhSQL(@"UPDATE tblChiTietPhieuNhap SET MaHH =  " + et.MaHH + " , SoLuong =  " + et.SoLuong + " , DonGia = " + et.DonGia + " where MaPN = '" + et.MaPN + "' and MAHH = '" + et.MaHH + "'");
+        }
     }
 }

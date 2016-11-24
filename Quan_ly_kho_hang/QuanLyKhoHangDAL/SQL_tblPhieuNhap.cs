@@ -28,11 +28,15 @@ namespace QuanLyKhoHangDAL
         }
         public DataTable getPN(string value)
         {
-            return cn.GetDataTable(@"SELECT b.TenNCC, a.NgayNhap, a.TongTien from tblPhieuNhap a, tblNhaCungCap b where a.MaNCC = b.MaNCC and MaPN = '"+value+"'");
+            return cn.GetDataTable(@"SELECT b.MaNCC, a.NgayNhap, a.TongTien from tblPhieuNhap a, tblNhaCungCap b where a.MaNCC = b.MaNCC and MaPN = '"+value+"'");
         }
         public void CapNhatTongTien()
         {
             cn.ThucThiCauLenhSQL(@"UPDATE tblPhieuNhap SET TongTien = (select sum(a.ThanhTien) from tblChiTietPhieuNhap a where a.MaPN = tblPhieuNhap.MaPN)");
+        }
+        public DataTable LayRaMaPN()//lấy ra top 1 mã thiết bị có tên mã phieunhap là gì đó
+        {
+            return cn.GetDataTable("select top 1  MaPN from tblPhieuNhap order by MaPN desc ");
         }
     }
 }
