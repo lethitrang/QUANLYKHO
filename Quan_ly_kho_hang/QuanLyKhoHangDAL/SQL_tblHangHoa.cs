@@ -14,6 +14,10 @@ namespace QuanLyKhoHangDAL
         {
             return cn.GetDataTable("SELECT * from tblHangHoa " + DieuKien);
         }
+        public DataTable TaoBang1(string DieuKien)
+        {
+            return cn.GetDataTable("SELECT MaHH,TenHH from tblHangHoa " + DieuKien);
+        }
         public int ThemDuLieu(EC_tblHangHoa et)
         {
             return cn.ThucThiCauLenhSQL(@"INSERT INTO tblHangHoa (MaHH, TenHH, SoLuong, GiaNhap, GiaXuat, NSX, ThongTin) 

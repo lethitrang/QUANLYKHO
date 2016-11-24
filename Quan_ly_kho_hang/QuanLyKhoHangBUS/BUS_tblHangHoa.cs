@@ -15,6 +15,10 @@ namespace QuanLyKhoHangBUS
         {
             return sql.TaoBang(DieuKien);
         }
+        public DataTable TaoBang1(string DieuKien)
+        {
+            return sql.TaoBang1(DieuKien);
+        }
         public int ThemDuLieu(EC_tblHangHoa et)
         {
             return sql.ThemDuLieu(et);
