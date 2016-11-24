@@ -34,14 +34,12 @@
             this.btn_Thoat = new System.Windows.Forms.Button();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.btn_Nhacungcap = new System.Windows.Forms.Button();
-            this.btn_Thongke = new System.Windows.Forms.Button();
             this.btn_TimHH = new System.Windows.Forms.Button();
             this.btn_ChiNhanh = new System.Windows.Forms.Button();
             this.btn_Dangxuat = new System.Windows.Forms.Button();
-            this.btn_XuatHH = new System.Windows.Forms.Button();
-            this.btn_NhapHH = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.btn_ThongTinHH = new System.Windows.Forms.Button();
+            this.btn_NhapHH = new System.Windows.Forms.Button();
             this.panel6.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,11 +48,9 @@
             this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.panel6.Controls.Add(this.btn_Thoat);
             this.panel6.Controls.Add(this.btn_Nhacungcap);
-            this.panel6.Controls.Add(this.btn_Thongke);
             this.panel6.Controls.Add(this.btn_TimHH);
             this.panel6.Controls.Add(this.btn_ChiNhanh);
             this.panel6.Controls.Add(this.btn_Dangxuat);
-            this.panel6.Controls.Add(this.btn_XuatHH);
             this.panel6.Controls.Add(this.btn_NhapHH);
             this.panel6.Controls.Add(this.label1);
             this.panel6.Controls.Add(this.btn_ThongTinHH);
@@ -71,7 +67,7 @@
             this.btn_Thoat.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btn_Thoat.ImageIndex = 75;
             this.btn_Thoat.ImageList = this.imageList1;
-            this.btn_Thoat.Location = new System.Drawing.Point(544, 280);
+            this.btn_Thoat.Location = new System.Drawing.Point(493, 280);
             this.btn_Thoat.Name = "btn_Thoat";
             this.btn_Thoat.Size = new System.Drawing.Size(120, 141);
             this.btn_Thoat.TabIndex = 11;
@@ -201,22 +197,6 @@
             this.btn_Nhacungcap.UseVisualStyleBackColor = true;
             this.btn_Nhacungcap.Click += new System.EventHandler(this.btn_Nhacungcap_Click);
             // 
-            // btn_Thongke
-            // 
-            this.btn_Thongke.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Thongke.ForeColor = System.Drawing.Color.Black;
-            this.btn_Thongke.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btn_Thongke.ImageIndex = 19;
-            this.btn_Thongke.ImageList = this.imageList1;
-            this.btn_Thongke.Location = new System.Drawing.Point(365, 280);
-            this.btn_Thongke.Name = "btn_Thongke";
-            this.btn_Thongke.Size = new System.Drawing.Size(120, 141);
-            this.btn_Thongke.TabIndex = 9;
-            this.btn_Thongke.Text = "Thống kê";
-            this.btn_Thongke.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btn_Thongke.UseVisualStyleBackColor = true;
-            this.btn_Thongke.Click += new System.EventHandler(this.btn_Thongke_Click);
-            // 
             // btn_TimHH
             // 
             this.btn_TimHH.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -224,7 +204,7 @@
             this.btn_TimHH.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btn_TimHH.ImageIndex = 65;
             this.btn_TimHH.ImageList = this.imageList1;
-            this.btn_TimHH.Location = new System.Drawing.Point(667, 84);
+            this.btn_TimHH.Location = new System.Drawing.Point(493, 84);
             this.btn_TimHH.Name = "btn_TimHH";
             this.btn_TimHH.Size = new System.Drawing.Size(120, 152);
             this.btn_TimHH.TabIndex = 8;
@@ -240,7 +220,7 @@
             this.btn_ChiNhanh.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btn_ChiNhanh.ImageIndex = 18;
             this.btn_ChiNhanh.ImageList = this.imageList1;
-            this.btn_ChiNhanh.Location = new System.Drawing.Point(191, 280);
+            this.btn_ChiNhanh.Location = new System.Drawing.Point(244, 280);
             this.btn_ChiNhanh.Name = "btn_ChiNhanh";
             this.btn_ChiNhanh.Size = new System.Drawing.Size(120, 141);
             this.btn_ChiNhanh.TabIndex = 11;
@@ -264,38 +244,6 @@
             this.btn_Dangxuat.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btn_Dangxuat.UseVisualStyleBackColor = true;
             this.btn_Dangxuat.Click += new System.EventHandler(this.btn_Dangxuat_Click);
-            // 
-            // btn_XuatHH
-            // 
-            this.btn_XuatHH.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_XuatHH.ForeColor = System.Drawing.Color.Black;
-            this.btn_XuatHH.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btn_XuatHH.ImageIndex = 46;
-            this.btn_XuatHH.ImageList = this.imageList1;
-            this.btn_XuatHH.Location = new System.Drawing.Point(452, 84);
-            this.btn_XuatHH.Name = "btn_XuatHH";
-            this.btn_XuatHH.Size = new System.Drawing.Size(129, 152);
-            this.btn_XuatHH.TabIndex = 8;
-            this.btn_XuatHH.Text = "Xuất hàng hóa";
-            this.btn_XuatHH.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btn_XuatHH.UseVisualStyleBackColor = true;
-            this.btn_XuatHH.Click += new System.EventHandler(this.btn_XuatHH_Click);
-            // 
-            // btn_NhapHH
-            // 
-            this.btn_NhapHH.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_NhapHH.ForeColor = System.Drawing.Color.Black;
-            this.btn_NhapHH.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btn_NhapHH.ImageIndex = 21;
-            this.btn_NhapHH.ImageList = this.imageList1;
-            this.btn_NhapHH.Location = new System.Drawing.Point(244, 84);
-            this.btn_NhapHH.Name = "btn_NhapHH";
-            this.btn_NhapHH.Size = new System.Drawing.Size(125, 152);
-            this.btn_NhapHH.TabIndex = 7;
-            this.btn_NhapHH.Text = "Nhập hàng hóa";
-            this.btn_NhapHH.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btn_NhapHH.UseVisualStyleBackColor = true;
-            this.btn_NhapHH.Click += new System.EventHandler(this.btn_NhapHH_Click);
             // 
             // label1
             // 
@@ -326,6 +274,22 @@
             this.btn_ThongTinHH.UseVisualStyleBackColor = true;
             this.btn_ThongTinHH.Click += new System.EventHandler(this.button1_Click);
             // 
+            // btn_NhapHH
+            // 
+            this.btn_NhapHH.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_NhapHH.ForeColor = System.Drawing.Color.Black;
+            this.btn_NhapHH.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btn_NhapHH.ImageIndex = 21;
+            this.btn_NhapHH.ImageList = this.imageList1;
+            this.btn_NhapHH.Location = new System.Drawing.Point(244, 84);
+            this.btn_NhapHH.Name = "btn_NhapHH";
+            this.btn_NhapHH.Size = new System.Drawing.Size(125, 152);
+            this.btn_NhapHH.TabIndex = 7;
+            this.btn_NhapHH.Text = "Nhập hàng hóa";
+            this.btn_NhapHH.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btn_NhapHH.UseVisualStyleBackColor = true;
+            this.btn_NhapHH.Click += new System.EventHandler(this.btn_NhapHH_Click);
+            // 
             // frmChinh
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -344,14 +308,12 @@
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btn_TimHH;
-        private System.Windows.Forms.Button btn_NhapHH;
-        private System.Windows.Forms.Button btn_XuatHH;
         private System.Windows.Forms.Button btn_Thoat;
         private System.Windows.Forms.Button btn_Nhacungcap;
-        private System.Windows.Forms.Button btn_Thongke;
         private System.Windows.Forms.Button btn_ChiNhanh;
         private System.Windows.Forms.Button btn_Dangxuat;
         private System.Windows.Forms.Button btn_ThongTinHH;
         private System.Windows.Forms.ImageList imageList1;
+        private System.Windows.Forms.Button btn_NhapHH;
     }
 }

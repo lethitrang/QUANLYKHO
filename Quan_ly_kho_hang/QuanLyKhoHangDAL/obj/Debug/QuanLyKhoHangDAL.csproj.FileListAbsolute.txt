@@ -26,3 +26,10 @@ D:\HOC TAP\ky 6\Thuc tap nhom\demo\111111111111111111111111111111111111111111111
 D:\HOC TAP\ky 6\Thuc tap nhom\demo\11111111111111111111111111111111111111111111111111111111111\Quan_ly_kho_hang_linh\Quan_ly_kho_hang\QuanLyKhoHangDAL\obj\Debug\QuanLyKhoHangDAL.csprojResolveAssemblyReference.cache
 D:\HOC TAP\ky 6\Thuc tap nhom\demo\11111111111111111111111111111111111111111111111111111111111\Quan_ly_kho_hang_linh\Quan_ly_kho_hang\QuanLyKhoHangDAL\obj\Debug\QuanLyKhoHangDAL.dll
 D:\HOC TAP\ky 6\Thuc tap nhom\demo\11111111111111111111111111111111111111111111111111111111111\Quan_ly_kho_hang_linh\Quan_ly_kho_hang\QuanLyKhoHangDAL\obj\Debug\QuanLyKhoHangDAL.pdb
+D:\HOC TAP\ky 6\Thuc tap nhom\THUCTAPNHOM2\Quanlykho\Quan_ly_kho_hang\QuanLyKhoHangDAL\bin\Debug\QuanLyKhoHangDAL.dll
+D:\HOC TAP\ky 6\Thuc tap nhom\THUCTAPNHOM2\Quanlykho\Quan_ly_kho_hang\QuanLyKhoHangDAL\bin\Debug\QuanLyKhoHangDAL.pdb
+D:\HOC TAP\ky 6\Thuc tap nhom\THUCTAPNHOM2\Quanlykho\Quan_ly_kho_hang\QuanLyKhoHangDAL\bin\Debug\QuanLyKhoHangEntity.exe
+D:\HOC TAP\ky 6\Thuc tap nhom\THUCTAPNHOM2\Quanlykho\Quan_ly_kho_hang\QuanLyKhoHangDAL\bin\Debug\QuanLyKhoHangEntity.pdb
+D:\HOC TAP\ky 6\Thuc tap nhom\THUCTAPNHOM2\Quanlykho\Quan_ly_kho_hang\QuanLyKhoHangDAL\obj\Debug\QuanLyKhoHangDAL.csprojResolveAssemblyReference.cache
+D:\HOC TAP\ky 6\Thuc tap nhom\THUCTAPNHOM2\Quanlykho\Quan_ly_kho_hang\QuanLyKhoHangDAL\obj\Debug\QuanLyKhoHangDAL.dll
+D:\HOC TAP\ky 6\Thuc tap nhom\THUCTAPNHOM2\Quanlykho\Quan_ly_kho_hang\QuanLyKhoHangDAL\obj\Debug\QuanLyKhoHangDAL.pdb
