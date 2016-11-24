@@ -81,8 +81,8 @@ namespace Quan_ly_kho_hang
 
         private void toolStripMenuItem3_Click(object sender, EventArgs e)
         {
-            frmPhieuNhap phieunhap = new frmPhieuNhap();
-            phieunhap.Show();
+      //      frm_PhieuNhap phieunhap = new frm_PhieuNhap();
+      //      phieunhap.Show();
         }
 
         private void toolStripMenuItem4_Click(object sender, EventArgs e)
@@ -92,8 +92,8 @@ namespace Quan_ly_kho_hang
 
         private void label6_Click(object sender, EventArgs e)
         {
-            frmXuathang frmXuat = new frmXuathang();
-            frmXuat.Show();
+      //      frm_Xuathang frmXuat = new frm_Xuathang();
+    //        frmXuat.Show();
         }
 
         private void lblThongKe_Click(object sender, EventArgs e)
@@ -134,14 +134,14 @@ namespace Quan_ly_kho_hang
 
         private void btn_NhapHH_Click(object sender, EventArgs e)
         {
-            frmPhieuNhap phieunhap = new frmPhieuNhap();
+            frm_PhieuNhap phieunhap = new frm_PhieuNhap();
             phieunhap.Show();
         }
 
         private void btn_XuatHH_Click(object sender, EventArgs e)
         {
-            frmXuathang frmXuat = new frmXuathang();
-            frmXuat.Show();
+    //        frm_Xuathang frmXuat = new frm_Xuathang();
+    //        frmXuat.Show();
         }
 
         private void btn_Nhacungcap_Click(object sender, EventArgs e)
@@ -171,8 +171,8 @@ namespace Quan_ly_kho_hang
 
         private void btn_Thongke_Click(object sender, EventArgs e)
         {
-            frmThongKe fr = new frmThongKe();
-            fr.Show();
+     //       frmThongKe fr = new frmThongKe();
+     //       fr.Show();
         }
 
         private void btn_Thoat_Click(object sender, EventArgs e)

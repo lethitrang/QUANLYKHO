@@ -12,9 +12,13 @@ namespace QuanLyKhoHangBUS
     public class BUS_tblChiNhanh
     {
         SQL_tblChiNhanh sql = new SQL_tblChiNhanh();
-        public DataTable TaoBang(string DieuKien)
+        public DataTable getAllChiNhanh()
         {
-            return sql.TaoBang(DieuKien);
+            return sql.getAllChiNhanh();
+        }
+        public DataTable getChiNhanh(string dk)
+        {
+            return sql.getChiNhanh(dk);
         }
         public int ThemDuLieu(EC_tblChiNhanh et)
         {
@@ -28,17 +32,18 @@ namespace QuanLyKhoHangBUS
         {
             return sql.XoaDuLieu(et);
         }
-        public DataTable getField(string field)
+        public DataTable LayRaMaCN()
         {
-            return sql.getField(field, "tblChiNhanh", "");
+            return sql.LayRaMaCN();
         }
-        public DataTable getField(string field, string dk)
-        {
-            return sql.getField(field, "tblChiNhanh", dk);
-        }
+        /////sử dụng lại hàm getField 
         public DataTable getField(string field, string table, string dk)
         {
-            return sql.getField(field, table, dk);
+            return getField(field, table, dk);
         }
+
+
+
+
     }
 }
