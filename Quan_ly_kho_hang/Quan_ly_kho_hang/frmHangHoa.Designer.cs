@@ -47,11 +47,6 @@
             this.colGiaXuat = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colNSX = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colThongTin = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
-            this.tstxtMaHH = new System.Windows.Forms.ToolStripTextBox();
-            this.tstxtTenHH = new System.Windows.Forms.ToolStripTextBox();
-            this.tstxtSoLuong = new System.Windows.Forms.ToolStripTextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
@@ -74,7 +69,6 @@
             this.menuStrip1.SuspendLayout();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDanhSach)).BeginInit();
-            this.toolStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -166,7 +160,6 @@
             // panel4
             // 
             this.panel4.Controls.Add(this.dgvDanhSach);
-            this.panel4.Controls.Add(this.toolStrip1);
             this.panel4.Location = new System.Drawing.Point(3, 248);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(879, 288);
@@ -184,10 +177,10 @@
             this.colNSX,
             this.colThongTin});
             this.dgvDanhSach.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvDanhSach.Location = new System.Drawing.Point(0, 25);
+            this.dgvDanhSach.Location = new System.Drawing.Point(0, 0);
             this.dgvDanhSach.Name = "dgvDanhSach";
             this.dgvDanhSach.ReadOnly = true;
-            this.dgvDanhSach.Size = new System.Drawing.Size(879, 263);
+            this.dgvDanhSach.Size = new System.Drawing.Size(879, 288);
             this.dgvDanhSach.TabIndex = 2;
             this.dgvDanhSach.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDanhSach_CellClick);
             // 
@@ -240,44 +233,6 @@
             this.colThongTin.HeaderText = "Thông tin";
             this.colThongTin.Name = "colThongTin";
             this.colThongTin.ReadOnly = true;
-            // 
-            // toolStrip1
-            // 
-            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripLabel1,
-            this.tstxtMaHH,
-            this.tstxtTenHH,
-            this.tstxtSoLuong});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 0);
-            this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(879, 25);
-            this.toolStrip1.TabIndex = 0;
-            this.toolStrip1.Text = "toolStrip1";
-            // 
-            // toolStripLabel1
-            // 
-            this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(28, 22);
-            this.toolStripLabel1.Text = "Tìm";
-            this.toolStripLabel1.Click += new System.EventHandler(this.toolStripLabel1_Click);
-            // 
-            // tstxtMaHH
-            // 
-            this.tstxtMaHH.Name = "tstxtMaHH";
-            this.tstxtMaHH.Size = new System.Drawing.Size(100, 25);
-            this.tstxtMaHH.Text = "--Mã hàng hóa";
-            // 
-            // tstxtTenHH
-            // 
-            this.tstxtTenHH.Name = "tstxtTenHH";
-            this.tstxtTenHH.Size = new System.Drawing.Size(100, 25);
-            this.tstxtTenHH.Text = "--Tên hàng hóa";
-            // 
-            // tstxtSoLuong
-            // 
-            this.tstxtSoLuong.Name = "tstxtSoLuong";
-            this.tstxtSoLuong.Size = new System.Drawing.Size(100, 25);
-            this.tstxtSoLuong.Text = "--Số lượng";
             // 
             // groupBox1
             // 
@@ -454,10 +409,7 @@
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDanhSach)).EndInit();
-            this.toolStrip1.ResumeLayout(false);
-            this.toolStrip1.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -475,7 +427,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn colGiaXuat;
         private System.Windows.Forms.DataGridViewTextBoxColumn colNSX;
         private System.Windows.Forms.DataGridViewTextBoxColumn colThongTin;
-        private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
@@ -500,10 +451,6 @@
         private System.Windows.Forms.ToolStripMenuItem btnLuu;
         private System.Windows.Forms.ToolStripMenuItem btnXoa;
         private System.Windows.Forms.ToolStripMenuItem btnLamMoi;
-        private System.Windows.Forms.ToolStripLabel toolStripLabel1;
-        private System.Windows.Forms.ToolStripTextBox tstxtMaHH;
-        private System.Windows.Forms.ToolStripTextBox tstxtTenHH;
-        private System.Windows.Forms.ToolStripTextBox tstxtSoLuong;
         private System.Windows.Forms.ToolStripMenuItem btnQuayLai;
         private System.Windows.Forms.ToolStripMenuItem btnThoat;
     }
